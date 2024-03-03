@@ -31,6 +31,9 @@ li a, p {
     font-size: 1.1em;
     text-decoration: none;
 }
+li a:hover{
+    text-decoration: underline;
+}
 .banner {
     display: flex;
     justify-content: space-between;
@@ -57,7 +60,7 @@ h1 {
 #sign-up {
     display: inline-block;
     background-color: #3882F6;
-    padding: 6px 15px;
+    padding: 6px 20px;
     margin-top: 10px;
     color: #F9FAF8;
     text-decoration: none;
@@ -96,8 +99,9 @@ h2 {
     justify-content: center;
 }
 .sentenca {
-    padding: 70px 80px;
+    padding: 85px 80px;
     width: 850px;
+    margin: 0 auto;
 }
 .sentenca-text{
     font-size: 36px;
@@ -106,8 +110,58 @@ h2 {
     color: #1f2937;
 }
 .creator{
-    margin-left: auto;
-    width: 190px;
+    text-align: right;
     font-weight: 600;
     font-size: 18px;
+}
+.banner-sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-block: 120px;
+    padding: 50px 120px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+strong{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+h3{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.banner-sign-up a {
+    border: 2px solid #F9FAF8;
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+footer {
+    background-color: var(--dark);
+    text-align: center;
+}
+footer p{
+    padding: 30px;
+}
+.square2{
+    background-image: url(images/imageofme.jpeg);
+    background-size: contain;
+}
+.square3{
+    background-image: url(images/imageofmom.jpeg);
+    background-size: contain;
+}
+.square4{
+    background-image: url(images/imageofdad.jpeg);
+    background-size: contain;
+}
+.square1{
+    background-image: url(images/imageofbia.jpeg);
+    background-size: contain;
 }
